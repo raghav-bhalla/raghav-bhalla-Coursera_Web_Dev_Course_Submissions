@@ -1,0 +1,101 @@
+body{
+	background-color: khaki;
+}
+h1{
+	text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+
+.chicken{
+	background-color: green;
+}
+.beef{
+	background-color: blue;
+}
+.sushi{
+	background-color: indianred;
+}
+
+section{
+	background-color: grey;
+}
+
+p.box-heading{
+	text-align: center;
+	float: right;
+	border-left: black solid;
+	border-bottom: black solid;
+	border-width: 1px;
+	font: bold;
+	font-family: sans-serif;
+	padding: 10px 30px 10px 30px;
+	margin-top: 0px;
+}
+
+p.dummy-data{
+	clear: both;
+
+}
+
+.row{
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,
+	 .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10,
+	 .col-lg-11, .col-lg-12{
+	 	float: left;
+	 	border: black solid ;
+	 	border-width: 1px;
+	 }
+
+	 .col-lg-4{
+	 	margin-left: 5px;
+	 	margin-right: 5px;
+	 	width: 31%;
+	 	
+	 }
+	 
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-mg-1, .col-mg-2, .col-mg-3, .col-mg-4, .col-mg-5,
+	 .col-mg-6, .col-mg-7, .col-mg-8, .col-mg-9, .col-mg-10,
+	 .col-mg-11, .col-mg-12{
+	 	float: left;
+	 	border: black solid;
+	 	border-width: 1px;
+	 }
+
+	
+	 .col-mg-6{
+	 	margin-top: 5px;
+	 	margin-right: 10px;
+	 	margin-left: 5px;
+	 	width: 48%;
+	 }
+	 
+	 .col-mg-12{
+	 	margin-top: 10px;
+	 	margin-left: 5px;
+	 	width: 98%;
+	 	margin-right: 6px;
+	 }
+}
+
+@media (max-width: 767px){
+	
+
+	
+	 .col-sg-12{
+	 	float: left;
+	 	border: black solid;
+	 	margin-top: 5px;
+	 	margin-bottom: 5px;
+	 	width: 98%;
+	 	border-width: 1px;
+	 }
+}
